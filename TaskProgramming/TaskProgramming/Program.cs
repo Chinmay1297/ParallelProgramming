@@ -11,7 +11,10 @@ internal class Program
 
     private static void Main(string[] args)
     {
+        //Creating Tasks and running it
         //MyTask1.Run();
+
+        //Different ways of creating a task and passing it function/action and value for action
         //MyTask2.Run();
 
         #region "how to return a value from a task"
@@ -26,6 +29,10 @@ internal class Program
         Console.WriteLine($"\nLength of text 1: {task1.Result} \nLength of text2: {task2.Result}");
         #endregion
 
+        CancellingTasks.Run();
+
         Console.WriteLine("\nMain Program finished\n");
+
+        
     }
 }
