@@ -29,10 +29,14 @@ internal class Program
         Console.WriteLine($"\nLength of text 1: {task1.Result} \nLength of text2: {task2.Result}");
         #endregion
 
-        CancellingTasks.Run();
+        //How to cancle tasks
+        //CancellingTasks.Run();
+
+        //How to execute  wait handle after cancellation
+        CancellingTasks2.Run();
 
         Console.WriteLine("\nMain Program finished\n");
 
-        
+        Console.ReadKey();
     }
 }
