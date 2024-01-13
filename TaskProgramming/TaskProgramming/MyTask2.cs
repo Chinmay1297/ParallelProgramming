@@ -8,7 +8,7 @@ namespace TaskProgramming
 {
     internal class MyTask2
     {
-        public static void Write(Object o)
+        public static void Write(object o)
         {
             int i = 10000;
             while(i -- > 0)
