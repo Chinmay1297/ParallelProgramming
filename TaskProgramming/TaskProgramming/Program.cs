@@ -1,29 +1,14 @@
-﻿internal class Program
-{
+﻿using System.ComponentModel;
+using TaskProgramming;
 
-    public static void Write(char c)
-    {
-        int i = 1000;
-        while(i -- > 0)
-        {
-            Console.Write(c);
-        }
-    }
+internal class Program
+{
 
     private static void Main(string[] args)
     {
-        Task.Factory.StartNew(() => Write('.'));  //creating a task and starting it simultaneously
+        //MyTask1.Run();
+        MyTask2.Run();
 
-        var t = new Task(()=> Write('?'));        //creating a task variable which is yet to start
-
-        t.Start();
-
-        Write('-');
-
-        //output wont be sequencial, as all 3 tasks run in different threads.
-
-        Console.Write("Main Program done");
-
-        Console.Write("Hello, World!");
+        Console.Write("Main Program finished");
     }
 }
