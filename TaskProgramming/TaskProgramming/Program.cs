@@ -20,6 +20,8 @@
 
         Write('-');
 
+        //output wont be sequencial, as all 3 tasks run in different threads.
+
         Console.Write("Main Program done");
 
         Console.Write("Hello, World!");
