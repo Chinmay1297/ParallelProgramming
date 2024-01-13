@@ -37,10 +37,12 @@ internal class Program
         //CancellingTasks2.Run();
 
         //6.How to link multiple cancellation tokens
-        CompositeCancellationToken.Run();
+        //CompositeCancellationToken.Run();
+
+        //7. Wait for time to pass
+        WaitForTimeToPass2.Run();
 
         Console.WriteLine("\nMain Program finished\n");
-
         Console.ReadKey();
     }
 }
