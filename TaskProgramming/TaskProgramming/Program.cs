@@ -40,7 +40,10 @@ internal class Program
         //CompositeCancellationToken.Run();
 
         //7. Wait for time to pass
-        WaitForTimeToPass2.Run();
+        //WaitForTimeToPass2.Run();
+
+        //8. Wait for Task/Tasks
+        WaitingForTasks.Run();
 
         Console.WriteLine("\nMain Program finished\n");
         Console.ReadKey();
