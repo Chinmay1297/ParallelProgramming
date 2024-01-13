@@ -11,12 +11,13 @@ internal class Program
 
     private static void Main(string[] args)
     {
-        //Creating Tasks and running it
+        //1.Creating Tasks and running it
         //MyTask1.Run();
 
-        //Different ways of creating a task and passing it function/action and value for action
+        //2.Different ways of creating a task and passing it function/action and value for action
         //MyTask2.Run();
 
+        //3.How to return a value from a task
         #region "how to return a value from a task"
         var txt1 = "mytext1";
         var txt2 = "hello chinmay";
@@ -29,11 +30,14 @@ internal class Program
         Console.WriteLine($"\nLength of text 1: {task1.Result} \nLength of text2: {task2.Result}");
         #endregion
 
-        //How to cancle tasks
+        //4.How to cancle tasks
         //CancellingTasks.Run();
 
-        //How to execute  wait handle after cancellation
-        CancellingTasks2.Run();
+        //5.How to execute  wait handle after cancellation
+        //CancellingTasks2.Run();
+
+        //6.How to link multiple cancellation tokens
+        CompositeCancellationToken.Run();
 
         Console.WriteLine("\nMain Program finished\n");
 
