@@ -5,7 +5,7 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskProgramming", "TaskProgramming\TaskProgramming.csproj", "{A5EC1A16-8DBE-4114-89A1-5CC61AC031E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataSharing&Synchronization", "DataSharing&Sunchronization\DataSharing&Synchronization.csproj", "{F4CED894-CD79-4530-8FDC-9B9082C8C3D2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataSharing&Synchronization", "DataSharing&Synchronization\DataSharing&Synchronization.csproj", "{F4CED894-CD79-4530-8FDC-9B9082C8C3D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
