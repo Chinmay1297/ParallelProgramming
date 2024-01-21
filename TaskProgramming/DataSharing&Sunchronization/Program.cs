@@ -6,7 +6,7 @@ namespace DataSharing_Synchronization
     {
         static void Main(string[] args)
         {
-            CriticalSections.Run();
+            CriticalSections2.Run();
             Console.WriteLine("Main Program Finished");
             //Console.ReadKey();
         }
