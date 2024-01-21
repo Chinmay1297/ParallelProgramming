@@ -43,7 +43,19 @@ internal class Program
         //WaitForTimeToPass2.Run();
 
         //8. Wait for Task/Tasks
-        WaitingForTasks.Run();
+        //WaitingForTasks.Run();
+
+        //9. Exception Handling
+        //ExceptionHandling.Run();            //Uncaught exceptions
+
+        //10. Exception Handling             //Exceptions get caught when you observe the tasks, but you need to handle them
+        //ExceptionHandling2.Run();
+
+        //11. Exception Handling             //How to handle aggregate exceptions thrown from multiple tasks
+        //ExceptionHandling3.Run();
+
+        //11. Exception Handling             //How to handle aggregate exceptions thrown from multiple tasks
+        ExceptionHandling4.Test();
 
         Console.WriteLine("\nMain Program finished\n");
         Console.ReadKey();
