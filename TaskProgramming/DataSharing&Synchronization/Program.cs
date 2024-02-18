@@ -28,7 +28,13 @@ namespace DataSharing_Synchronization
             //MutexMechanism2.Run();
 
             //8. Global Mutex shared across multiple programs
-            MutexMechanism3.Run();
+            //MutexMechanism3.Run();
+
+            //9. ReaderWriterLockSlim
+            //ReaderWriterLocks.Run();
+
+            //10. Nested Readlocks and upgradable readlock
+            UpgradableReaderWriterLocks.Run();
 
             Console.WriteLine("Main Program Finished");
             //Console.ReadKey();
