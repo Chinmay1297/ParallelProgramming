@@ -19,12 +19,12 @@ namespace DataSharing_Sunchronization
 
         public void Deposit(int amount)
         {
-            balance = balance + amount;
+            balance += amount;
         }
 
         public void Withdraw(int amount)
         {
-            balance = balance - amount;
+            balance -= amount;
         }
     }
 
