@@ -13,8 +13,13 @@ namespace DataSharing_Synchronization
             //CriticalSections.Run();
 
             //3. Different way to achieve synchronization using Interlocked class's methods
-            InterlockedOperations.Run();
+            //InterlockedOperations.Run();
 
+            //4. Spin Locking: Works well in the scenarios where acquiring a lock fails/or timeout.
+            //SpinLockMechanism.Run();
+
+            //5.
+            LockRecursion.Run();
 
             Console.WriteLine("Main Program Finished");
             //Console.ReadKey();
