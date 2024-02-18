@@ -50,7 +50,7 @@ namespace DataSharing_Sunchronization
                 {
                     for (int j = 0; j < 1000; j++)
                     {
-                        bool haveLock = mutex.WaitOne();
+                        bool haveLock = mutex.WaitOne();            //WaitOne() takes ms as parameter to define duration for which it should wait
                         try
                         {
                             ba.Deposit(100);

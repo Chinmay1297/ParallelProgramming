@@ -19,7 +19,7 @@ namespace DataSharing_Synchronization
             //SpinLockMechanism.Run();
 
             //5. Lock Recursion: new SpinLock(int x) accepts an argument which decides whether to enavle task owner tracking
-            //LockRecursion.Run();
+            LockRecursion.Run();
 
             //6. Mutex - Similar to lock: controls access to a particular region
             //MutexMechanism.Run();
@@ -34,7 +34,7 @@ namespace DataSharing_Synchronization
             //ReaderWriterLocks.Run();
 
             //10. Nested Readlocks and upgradable readlock
-            UpgradableReaderWriterLocks.Run();
+            //UpgradableReaderWriterLocks.Run();
 
             Console.WriteLine("Main Program Finished");
             //Console.ReadKey();
