@@ -7,7 +7,7 @@ namespace DataSharing_Synchronization
         static void Main(string[] args)
         {
             //1. Scenario to demonstrate the need for critical section
-            //CriticalSections.Run();
+            CriticalSections.Run();
 
             //2. How to implement critical sections using lock(obj)
             //CriticalSections.Run();
@@ -19,7 +19,7 @@ namespace DataSharing_Synchronization
             //SpinLockMechanism.Run();
 
             //5. Lock Recursion: new SpinLock(int x) accepts an argument which decides whether to enavle task owner tracking
-            LockRecursion.Run();
+            //LockRecursion.Run();
 
             //6. Mutex - Similar to lock: controls access to a particular region
             //MutexMechanism.Run();
