@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.7.34031.279
+# Visual Studio Version 18
+VisualStudioVersion = 18.5.11801.241 oobstable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskProgramming", "TaskProgramming\TaskProgramming.csproj", "{A5EC1A16-8DBE-4114-89A1-5CC61AC031E3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataSharing&Synchronization", "DataSharing&Synchronization\DataSharing&Synchronization.csproj", "{F4CED894-CD79-4530-8FDC-9B9082C8C3D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrentCollections", "ConcurrentCollections\ConcurrentCollections.csproj", "{2CE1BDDD-0AE3-4A5C-BDC2-D2DA51FCB115}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{F4CED894-CD79-4530-8FDC-9B9082C8C3D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4CED894-CD79-4530-8FDC-9B9082C8C3D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4CED894-CD79-4530-8FDC-9B9082C8C3D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CE1BDDD-0AE3-4A5C-BDC2-D2DA51FCB115}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CE1BDDD-0AE3-4A5C-BDC2-D2DA51FCB115}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CE1BDDD-0AE3-4A5C-BDC2-D2DA51FCB115}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CE1BDDD-0AE3-4A5C-BDC2-D2DA51FCB115}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
